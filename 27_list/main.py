@@ -1,3 +1,5 @@
+"""List code"""
+
 colors = ["read","green","blue","yellow"]
 
 print(colors)

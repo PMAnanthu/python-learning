@@ -10,8 +10,5 @@ if __name__=="__main__":
             print("Engoy ride after pay 7$")
         else:
             print("Engoy ride after pay 12$")
-             
     else:
         print("Sorry better luck next time :( ")
-        
-    

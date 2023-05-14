@@ -6,5 +6,3 @@ if __name__=="__main__":
         print("Even Number")
     else:
         print("Odd Number")
-        
-    

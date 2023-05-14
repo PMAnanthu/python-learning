@@ -6,5 +6,3 @@ if __name__=="__main__":
         print("Enjoy you ride!!!")
     else:
         print("Sorry better luck next time :( ")
-        
-    
