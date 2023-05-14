@@ -1,3 +1,5 @@
+"""Type Cast Code"""
+
 if __name__=="__main__":
     print(type(str(12)))
     print(type(str(1.3)))

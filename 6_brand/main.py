@@ -1,3 +1,5 @@
+"""Brand Find program"""
+
 if __name__=="__main__":
     print("Welcome!")
     city = input("Name of the city? ")

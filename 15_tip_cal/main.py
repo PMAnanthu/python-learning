@@ -1,3 +1,5 @@
+"""Tip Calculator code"""
+
 if __name__=="__main__":
     bill = float(input("Enter the bill? "))
     ppl = float(input("Number of ppl? "))

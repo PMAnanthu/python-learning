@@ -1,3 +1,5 @@
+"""BMI Calculator"""
+
 if __name__=="__main__":
     weight = float(input("Weight in KG : "))
     hight = float(input("Hight in m: "))

@@ -1,3 +1,5 @@
+"""Type Code"""
+
 if __name__=="__main__":
     print(type(12))
     print(type(1.3))

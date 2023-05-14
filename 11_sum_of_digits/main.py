@@ -1,3 +1,5 @@
+"""Sum of digit Code"""
+
 if __name__=="__main__":
     number = int(input("Enter the number?"))
     sum = 0

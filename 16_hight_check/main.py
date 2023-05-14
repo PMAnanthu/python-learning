@@ -1,3 +1,5 @@
+"""Hight Check Code"""
+
 if __name__=="__main__":
     hight = float(input("Enter your hight in cm? "))
     if hight >= 120:

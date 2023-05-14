@@ -1,3 +1,5 @@
+"""Odd or Even Code"""
+
 if __name__=="__main__":
     num = int(input("Enter number? "))
     if num % 2 ==0:
