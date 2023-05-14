@@ -1,3 +1,5 @@
+"""Leap Year Calculator"""
+
 if __name__=="__main__":
     year = int(input("Year: "))
     if year % 4 == 0:
@@ -10,6 +12,3 @@ if __name__=="__main__":
             print("Leap Year")
     else:
         print("Not a leap year")
-    
-        
-    

@@ -1,3 +1,5 @@
+"""Nested IF code"""
+
 if __name__=="__main__":
     hight = float(input("Enter your hight in cm? "))
     if hight >= 120:
@@ -8,8 +10,5 @@ if __name__=="__main__":
             print("Engoy ride after pay 7$")
         else:
             print("Engoy ride after pay 12$")
-             
     else:
         print("Sorry better luck next time :( ")
-        
-    

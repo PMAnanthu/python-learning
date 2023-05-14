@@ -1,8 +1,11 @@
+"""Love Calculator"""
+
+
 if __name__=="__main__":
     name1=input("Enter first name: ")
     name2=input("Enter second name: ")
     name= name1+name2
-    name = name.lower();
+    name = name.lower()
     t = name.count("t")
     r =  name.count("r")
     u =  name.count("u")
@@ -11,6 +14,3 @@ if __name__=="__main__":
     o =  name.count("o")
     v =  name.count("v")
     print(f"love percent {t+r+u+e}{l+o+v+e} %")
-            
-        
-    

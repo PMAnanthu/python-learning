@@ -1,3 +1,5 @@
+"""String index program"""
+
 if __name__=="__main__":
-    char = "hello"[2]
-    print(char)
+    CHAR = "hello"[2]
+    print(CHAR)

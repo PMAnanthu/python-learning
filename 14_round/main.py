@@ -1,8 +1,8 @@
+"""Round number Code"""
+
 if __name__=="__main__":
-    number = 2.2343242
-    print(int(number))
-    print(round(number))
-    print(round(number,2))
-    print(f"test f string {number}")
-        
-    
+    NUM = 2.2343242
+    print(int(NUM))
+    print(round(NUM))
+    print(round(NUM,2))
+    print(f"test f string {NUM}")

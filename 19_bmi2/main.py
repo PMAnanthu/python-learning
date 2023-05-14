@@ -1,3 +1,6 @@
+"""BMI V.2"""
+
+
 if __name__=="__main__":
     weight = float(input("Weight in KG : "))
     hight = float(input("Hight in m: "))
@@ -13,5 +16,4 @@ if __name__=="__main__":
         print("obese")
     else:
         print("clinically obese")
-        
     
