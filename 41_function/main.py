@@ -4,7 +4,7 @@ def greet():
     """
     Function without parameter
     """
-    print(f"Hi,")
+    print("Hi,")
     print("hope doing good\n")
 
 def greet_with_name(name):
@@ -13,7 +13,7 @@ def greet_with_name(name):
     """
     print(f"Hi {name},")
     print("hope doing good\n")
-    
+
 if __name__=="__main__":
     greet()
     greet_with_name(name="Ananthu")
