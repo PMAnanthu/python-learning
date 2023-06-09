@@ -63,6 +63,7 @@ def start():
         output_word=create_word(output)
         print(f"\nresult: {output_word}\n")
         if not flag:
+            print(f"you guess '{guess}', that is not in the word. you lose a life!")
             print(LEVELS[level])
             level += 1
             if level==6:
