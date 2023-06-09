@@ -1,13 +1,8 @@
 """Hangman program"""
 import random
 import requests
+from constant import LEVELS,BANNER,KILL,SAVE
 
-LEVELS = [" +----+\n |    |\n O    |\n      |\n      |\n      |\n=======\n",
-          " +----+\n |    |\n O    |\n/     |\n      |\n      |\n=======\n",
-          " +----+\n |    |\n O    |\n/|    |\n      |\n      |\n=======\n",
-          " +----+\n |    |\n O    |\n/|\\   |\n      |\n      |\n=======\n",
-          " +----+\n |    |\n O    |\n/|\\   |\n/     |\n      |\n=======\n",
-          " +----+\n |    |\n O    |\n/|\\   |\n/ \\   |\n      |\n=======\n"]
 
 def get_list_of_words():
     """
@@ -37,33 +32,45 @@ def generate_output(word_length):
         output+="_"
     return output
 
+def create_word(output):
+    """
+    create word from array
+    """
+    result=""
+    for letter in output:
+        result += letter
+        result += " "
+    return result
+
 def start():
     """
     start game
     """
+    print(BANNER)
     word = generate_word()
     word_length=len(word)
     output=generate_output(word_length)
     game_over=False
     level = 0
     while not game_over:
-        guess=input("Guess a letter: ").lower()
+        guess=input("\nGuess a letter: ").lower()
         flag = False
         for index in range(word_length):
             letter = word[index]
             if letter == guess:
                 flag = True
                 output[index] = letter
-        print(output)
+        output_word=create_word(output)
+        print(f"\nresult: {output_word}\n")
         if not flag:
             print(LEVELS[level])
             level += 1
             if level==6:
-                print("You Killed Him!!!")
-                print(word)
+                print(KILL)
+                print(f"Answer: {word}")
                 game_over = True
         if "_" not in output:
-            print("You Saved Him!!!")
+            print(SAVE)
             game_over = True
 if __name__ == "__main__":
     start()
