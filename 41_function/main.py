@@ -13,7 +13,7 @@ def greet_with_name(name):
     """
     print(f"Hi {name},")
     print("hope doing good\n")
-    
+
 def greet_with_name_and_location(name,location):
     """
     with multiple args
